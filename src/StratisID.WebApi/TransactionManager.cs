@@ -19,7 +19,7 @@ namespace StratisID.WebApi
 
             string LastTxId = "7d798bd2a29d2ba759883c27c4d01556e2d013380edfa79c80464e62a8f90b70";
             string SourcePublicAddress = "STrATiSwHPf36VbqWMUaduaN57A791YP9c";
-            string SourcePrivateKey = "HereYourPrivateKey"; 
+            string SourcePrivateKey = "EnterYourPrivateKey"; 
             string DestinationAddress = "SdMCMmLjD6NK8ssWt5nH2gtv6XkQXErBRs";
             double amountTx = 0.0001;
             double feeTx = 0.0001;
@@ -146,7 +146,7 @@ namespace StratisID.WebApi
 
     class Program
     {
-        private static void Main3(string[] args)
+        private static void Main(string[] args)
         {
             TransactionManager newTransaction = new TransactionManager();
             newTransaction.SendIdentiyProviderTransaction();
